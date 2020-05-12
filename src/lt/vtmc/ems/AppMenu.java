@@ -52,7 +52,7 @@ public class AppMenu {
                 exit = 'y';
                 System.out.println("Calculate again");
             default:
-                System.out.println("Wrong symbol!");
+                System.out.println("Good bye!");
                 exit = 'n';
         }
     }
