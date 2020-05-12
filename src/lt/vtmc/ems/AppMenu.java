@@ -50,7 +50,7 @@ public class AppMenu {
                 exit = 'n';                
             case 'n':
                 exit = 'y';
-                System.out.println("Good luck!");
+                System.out.println("Calculate again");
             default:
                 System.out.println("Wrong symbol!");
                 exit = 'n';
