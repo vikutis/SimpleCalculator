@@ -19,11 +19,12 @@ public class AppMenu {
         // TODO
     	String firstNumAsk = "First number: ";
     	String secondNumAsk = "Second number: ";
+    	String operator = "Operator: ";
         System.out.print(firstNumAsk);
         int x = Integer.parseInt(input.next());
         System.out.print(secondNumAsk);
         int y = Integer.parseInt(input.next());
-        System.out.print("Operator: ");
+        System.out.print(operator);
         String op = input.next();
 
         int z = 0;
