@@ -17,9 +17,11 @@ public class AppMenu {
 
     private void arithmeticCalculateMenu() throws Exception {
         // TODO
-        System.out.print("First number: ");
+    	String firstNumAsk = "First number: ";
+    	String secondNumAsk = "Second number: ";
+        System.out.print(firstNumAsk);
         int x = Integer.parseInt(input.next());
-        System.out.print("Second number: ");
+        System.out.print(secondNumAsk);
         int y = Integer.parseInt(input.next());
         System.out.print("Operator: ");
         String op = input.next();
