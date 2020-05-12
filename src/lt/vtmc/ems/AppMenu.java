@@ -47,12 +47,14 @@ public class AppMenu {
         char close = read.charAt(0);
         switch (close) {
             case 'y':
-                exit = 'n';                
+                exit = 'n';
+                break;
             case 'n':
                 exit = 'y';
-                System.out.println("Calculate again");
+                System.out.println("Good luck!");
+                break;
             default:
-                System.out.println("Good bye!");
+                System.out.println("Wrong symbol!");
                 exit = 'n';
         }
     }
